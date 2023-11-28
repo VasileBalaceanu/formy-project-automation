@@ -20,8 +20,8 @@ public class FormPage {
         WebElement educationLevel = driver.findElement(By.id("radio-button-1"));
         educationLevel.click();
 
-        WebElement sexType = driver.findElement(By.id("checkbox-1"));
-        sexType.click();
+        WebElement gender = driver.findElement(By.id("checkbox-1"));
+        gender.click();
 
         WebElement experience = driver.findElement(By.cssSelector("option[value='4']"));
         experience.click();
